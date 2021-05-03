@@ -1,0 +1,10 @@
+{
+  "name": "openapi_mock_server",
+  "description": "Openapi mock server for a frontend app example project",
+  "version": "1.0.0",
+  "author": "Ernest Lebedev <allesverloren133@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "swagger-cli": "^4.0.4"
+  }
+}
