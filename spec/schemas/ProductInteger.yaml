@@ -1,0 +1,16 @@
+type: object
+description: Product with integer ID
+properties:
+  id:
+    type: integer
+    description: ID
+  title:
+    type: string
+    description: Title
+  price:
+    type: integer
+    description: Price
+required:
+  - id
+  - title
+  - price
