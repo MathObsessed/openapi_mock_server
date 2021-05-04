@@ -13,3 +13,14 @@ Generate Openapi specs:
 ```console
 npm run gen
 ```
+
+Lint specs:
+
+```console
+npm run lint
+```
+
+#### Info
+
+- [OpenAPI](https://swagger.io/specification/)
+- [Spectral](https://meta.stoplight.io/docs/spectral/README.md)
