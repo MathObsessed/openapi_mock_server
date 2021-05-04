@@ -14,3 +14,7 @@ Generate Openapi specs:
   ```console
   npx swagger-cli bundle -o ./spec/gen/dashboard_v1.yaml -t yaml ./spec/dashboard/v1.yaml
   ```
+- Dashboard backend API v2
+  ```console
+  npx swagger-cli bundle -o ./spec/gen/dashboard_v2.yaml -t yaml ./spec/dashboard/v2.yaml
+  ```

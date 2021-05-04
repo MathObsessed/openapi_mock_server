@@ -1,0 +1,37 @@
+openapi: 3.0.3
+
+info:
+  title: Dashboard backend API v2
+  description: Uses string product IDs
+  version: 2.0.0
+
+paths:
+  /products:
+    get:
+      tags:
+        - products
+      summary: Returns all products
+      description: >
+        Lists all products (with a `limit` option if needed)
+      operationId: listProducts
+      parameters:
+        - name: limit
+          in: query
+          description: Limit of items returned
+          required: false
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: An array of products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+
+components:
+  schemas:
+    Product:
+      $ref: './../schemas/ProductString.yaml'
