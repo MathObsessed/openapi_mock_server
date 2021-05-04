@@ -6,12 +6,15 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@stoplight/prism-cli": "^4.2.1",
     "@stoplight/spectral": "^5.9.1",
     "openapi-types": "^8.0.0",
     "swagger-cli": "^4.0.4"
   },
   "scripts": {
     "gen": "sh ./scripts/gen.sh",
-    "lint": "sh ./scripts/lint.sh"
+    "lint": "sh ./scripts/lint.sh",
+    "v1": "npx prism mock ./gen/v1.yaml -p 4010 -d",
+    "v2": "npx prism mock ./gen/v2.yaml -p 4011 -d"
   }
 }

@@ -8,6 +8,10 @@ info:
     name: API Support
     email: allesverloren133@gmail.com
 
+servers:
+  - url: http://127.0.0.1:4010
+    description: Mock Server
+
 tags:
   - name: products
     description: Everything about products

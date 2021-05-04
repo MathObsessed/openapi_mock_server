@@ -20,7 +20,16 @@ Lint specs:
 npm run lint
 ```
 
+Start mock servers (each command is a foreground process, so you're going to need several terminals):
+
+```console
+npm run v1
+npm run v2
+```
+
 #### Info
 
 - [OpenAPI](https://swagger.io/specification/)
 - [Spectral](https://meta.stoplight.io/docs/spectral/README.md)
+- [Prism](https://meta.stoplight.io/docs/prism/README.md) (*You can use `Prism` as a __Mock Server__ or a __Validation
+  Proxy__. More info [here](https://github.com/stoplightio/prism/blob/master/docs/getting-started/02-concepts.md)*)
