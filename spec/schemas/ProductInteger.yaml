@@ -4,12 +4,12 @@ properties:
   id:
     type: integer
     description: ID
+    minimum: 1
   title:
     type: string
     description: Title
   price:
-    type: integer
-    description: Price
+    $ref: './Price.yaml'
 required:
   - id
   - title

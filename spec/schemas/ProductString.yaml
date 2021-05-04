@@ -8,8 +8,7 @@ properties:
     type: string
     description: Title
   price:
-    type: integer
-    description: Price
+    $ref: './Price.yaml'
 required:
   - id
   - title
