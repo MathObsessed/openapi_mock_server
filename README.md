@@ -27,6 +27,8 @@ npm run v1
 npm run v2
 ```
 
+You can access mock servers on http://127.0.0.1:4010 for `v1` and on http://127.0.0.1:4011 for `v2`
+
 #### Info
 
 - [OpenAPI](https://swagger.io/specification/)
