@@ -34,4 +34,4 @@ paths:
 components:
   schemas:
     Product:
-      $ref: './../schemas/ProductInteger.yaml'
+      $ref: './schemas/ProductInteger.yaml'

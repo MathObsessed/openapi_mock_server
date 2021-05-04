@@ -12,9 +12,9 @@ Generate Openapi specs:
 
 - Dashboard backend API v1
   ```console
-  npx swagger-cli bundle -o ./spec/gen/dashboard_v1.yaml -t yaml ./spec/dashboard/v1.yaml
+  npx swagger-cli bundle -o ./gen/v1.yaml -t yaml ./spec/v1.yaml
   ```
 - Dashboard backend API v2
   ```console
-  npx swagger-cli bundle -o ./spec/gen/dashboard_v2.yaml -t yaml ./spec/dashboard/v2.yaml
+  npx swagger-cli bundle -o ./gen/v2.yaml -t yaml ./spec/v2.yaml
   ```
