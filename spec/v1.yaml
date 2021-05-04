@@ -4,6 +4,13 @@ info:
   title: Dashboard backend API v1
   description: Uses integer product IDs
   version: 1.0.0
+  contact:
+    name: API Support
+    email: allesverloren133@gmail.com
+
+tags:
+  - name: products
+    description: Everything about products
 
 paths:
   /products:
