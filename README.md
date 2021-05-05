@@ -29,7 +29,21 @@ npm run v2
 
 You can access mock servers on http://127.0.0.1:4010 for `v1` and on http://127.0.0.1:4011 for `v2`.
 
-#### Info
+### Test requests
+
+First start both APIs (`v1` and `v2`). Now these examples demonstrate different aspects of mock server responses:
+
+- Simple call will return a set of randomly generated objects
+  ```curl
+  curl -L -X GET 'http://127.0.0.1:4010/products'
+  ```
+- A call with `Prefer` header and a specific example name will return that example
+  ```curl
+  curl -L -X GET 'http://127.0.0.1:4010/products' \
+  -H 'Prefer: example=three_products'
+  ```
+
+### Info
 
 - [OpenAPI](https://swagger.io/specification/)
 - [Spectral](https://meta.stoplight.io/docs/spectral/README.md)
